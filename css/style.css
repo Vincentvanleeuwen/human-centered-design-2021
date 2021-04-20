@@ -1,0 +1,10 @@
+video {
+  width: 60vw;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
