@@ -44,5 +44,37 @@
     </video>
   </section>
 
+  <div id="container">
+    <h2> Technical Test </h2>
+    <video
+      controls
+      crossorigin
+      playsinline
+      data-poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg"
+      id="player"
+    >
+      <!-- Video files -->
+      <source
+        src="./videos/westworld-trailer.mp4"
+        type="video/mp4"
+        size="576"
+      />
+
+      <!-- Caption files -->
+      <track
+        kind="captions"
+        label="English"
+        srclang="en"
+        src="./subtitles/westworld.en.vtt"
+        default
+      />
+
+      <!-- Fallback for browsers that don't support the <video> element -->
+      <a href="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4" download>Download</a>
+    </video>
+  </div>
+
+  <script src="https://cdn.plyr.io/3.2.4/plyr.js"></script>
+  <script src="js/index.js"></script>
 </body>
 </html>

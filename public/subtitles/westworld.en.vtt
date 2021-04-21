@@ -1,0 +1,55 @@
+WEBVTT
+
+STYLE
+::cue {
+  background-color: rgba(0, 50, 100, 0.33);
+  background-image: linear-gradient();
+  color: white;
+}
+
+NOTE comment blocks can be used between style blocks. background-color: rgba(0, 50, 100, 0.33);
+
+STYLE
+::cue(b) {
+  font-weight: bold;
+}
+
+STYLE
+::cue(i) {
+  color: red;
+  font-size: 80%;
+  padding-right: 2em;
+}
+
+STYLE
+::cue(#dolores) {
+  color: blue;
+  font-size: 80%;
+  padding-right: 2em;
+}
+
+00:00:02.500 --> 00:00:04.000 align:middle
+<i>Dolores     </i> You came <b>back</b>.
+
+00:00:04.500 --> 00:00:07.000 align:middle
+<i>Teddy     </i> You know if I could stay right here with you I <b>would</b>.
+
+00:00:08.500 --> 00:00:11.000 align:middle
+<i>Dolores     </i> Just sometimes I feel like the world out there is calling me
+
+00:00:12.000 --> 00:00:14.000 align:middle
+<i>Boy     </i> You're one of them aren't you?
+
+00:00:14.000 --> 00:00:17.000 align:middle
+<i>Boy     </i> You're not real
+
+00:00:16.500 --> 00:00:17.500 align:middle
+[BANG]
+
+00:00:17.500 --> 00:00:20.000 align:middle
+<i>Bernard     </i> Bring yourself back online
+
+00:00:20.000 --> 00:00:21.000 align:middle
+[Dolores gasping for air]
+
+NOTE style blocks cannot appear after the first cue.

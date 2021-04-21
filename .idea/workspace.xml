@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="030a1727-3d05-46be-9f21-6e4dc1dfcf14" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/subtitles/westworld.en.vtt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,11 +53,17 @@
       <option name="presentableId" value="Default" />
       <updated>1618947696877</updated>
       <workItem from="1618947697968" duration="1156000" />
-      <workItem from="1618991989089" duration="932000" />
+      <workItem from="1618991989089" duration="4369000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2560" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1619000179593">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2560" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/648.-1080.2560.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1619000179593" />
   </component>
 </project>
