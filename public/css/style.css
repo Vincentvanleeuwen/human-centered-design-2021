@@ -1,10 +1,12 @@
 video {
   width: 60vw;
+  margin-bottom: 5em;
 }
 
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  padding-top: 5em;
 }
