@@ -16,7 +16,7 @@ STYLE
 
 STYLE
 ::cue(i) {
-  color: red;
+  color: white;
   font-size: 80%;
   padding-right: 2em;
 }
@@ -49,7 +49,7 @@ STYLE
 00:00:17.500 --> 00:00:20.000 align:middle
 <i>Bernard     </i> Bring yourself back online
 
-00:00:20.000 --> 00:00:21.000 align:middle
-[Dolores gasping for air]
+00:00:20.000 --> 00:00:22.000 align:middle
+[Gasping for air]
 
 NOTE style blocks cannot appear after the first cue.
