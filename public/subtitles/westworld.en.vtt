@@ -2,8 +2,7 @@ WEBVTT
 
 STYLE
 ::cue {
-  background-color: rgba(0, 50, 100, 0.33);
-  background-image: linear-gradient();
+  width: 100%;
   color: white;
 }
 
@@ -22,32 +21,45 @@ STYLE
 }
 
 STYLE
-::cue(#dolores) {
-  color: blue;
-  font-size: 80%;
-  padding-right: 2em;
+::cue(c.dolores) {
+  background-color: rgba(241, 86, 86, 0.33);
+}
+
+STYLE
+::cue(c.teddy) {
+  background-color: rgba(86, 93, 241, 0.33);
+}
+
+STYLE
+::cue(c.boy) {
+  background-color: rgb(241, 195, 86, 0.33);
+}
+
+STYLE
+::cue(c.boy) {
+  background-color: rgba(104, 36, 157, 0.33);
 }
 
 00:00:02.500 --> 00:00:04.000 align:middle
-<i>Dolores     </i> You came <b>back</b>.
+<c.dolores><i>Dolores     </i> You came <b>back</b>.</c>
 
 00:00:04.500 --> 00:00:07.000 align:middle
-<i>Teddy     </i> You know if I could stay right here with you I <b>would</b>.
+<c.teddy><i>Teddy     </i> You know if I could stay right here with you I <b>would</b>.</c>
 
 00:00:08.500 --> 00:00:11.000 align:middle
-<i>Dolores     </i> Just sometimes I feel like the world out there is calling me
+<c.dolores><i>Dolores     </i> Just sometimes I feel like the world out there is calling me</c>
 
 00:00:12.000 --> 00:00:14.000 align:middle
-<i>Boy     </i> You're one of them aren't you?
+<c.boy><i>Boy     </i> You're one of them aren't you?</c>
 
 00:00:14.000 --> 00:00:17.000 align:middle
-<i>Boy     </i> You're not real
+<c.boy><i>Boy     </i> You're not real</c>
 
 00:00:16.500 --> 00:00:17.500 align:middle
 [BANG]
 
 00:00:17.500 --> 00:00:20.000 align:middle
-<i>Bernard     </i> Bring yourself back online
+<c.bernard><i>Bernard     </i> Bring yourself back online</c>
 
 00:00:20.000 --> 00:00:22.000 align:middle
 [Gasping for air]

@@ -9,7 +9,6 @@
   <title>Document</title>
   <link rel="stylesheet"
         href="./css/style.css">
-  <link rel="stylesheet" href="https://cdn.plyr.io/3.6.7/plyr.css" />
 </head>
 <body>
   <section>
@@ -23,61 +22,60 @@
     </video>
   </section>
 
-  <section>
-    <h2> Closed Captions - One line equalizer (top sided)</h2>
-    <video controls width="250">
+<!--  <section>-->
+<!--    <h2> Closed Captions - One line equalizer (top sided)</h2>-->
+<!--    <video controls width="250">-->
 
-      <source src="./videos/darice-westworld-2.mp4"
-              type="video/mp4">
+<!--      <source src="./videos/darice-westworld-2.mp4"-->
+<!--              type="video/mp4">-->
 
-      Sorry, your browser doesn't support embedded videos.
-    </video>
-  </section>
-
-  <section>
-    <h2> Closed Captions - One line equalizer (double sided)</h2>
-    <video controls width="250">
-
-      <source src="./videos/darice-westworld-3.mp4"
-              type="video/mp4">
-
-      Sorry, your browser doesn't support embedded videos.
-    </video>
-  </section>
-
-<!--  <div id="container">-->
-<!--    <h2> Technical Test with WebVTT </h2>-->
-<!--    <video-->
-<!--      controls-->
-<!--      crossorigin-->
-<!--      playsinline-->
-<!--      data-poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg"-->
-<!--      id="player"-->
-<!--    >-->
-<!--      &lt;!&ndash; Video files &ndash;&gt;-->
-<!--      <source-->
-<!--        src="./videos/westworld-trailer.mp4"-->
-<!--        type="video/mp4"-->
-<!--        size="576"-->
-<!--      />-->
-
-<!--      &lt;!&ndash; Caption files &ndash;&gt;-->
-<!--      <track-->
-<!--        kind="captions"-->
-<!--        label="English"-->
-<!--        srclang="en"-->
-<!--        src="./subtitles/westworld.en.vtt"-->
-<!--        default-->
-<!--      />-->
-
-<!--      &lt;!&ndash; Fallback for browsers that don't support the <video> element &ndash;&gt;-->
-<!--      <a href="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4" download>Download</a>-->
+<!--      Sorry, your browser doesn't support embedded videos.-->
 <!--    </video>-->
+<!--  </section>-->
+
+<!--  <section>-->
+<!--    <h2> Closed Captions - One line equalizer (double sided)</h2>-->
+<!--    <video controls width="250">-->
+
+<!--      <source src="./videos/darice-westworld-3.mp4"-->
+<!--              type="video/mp4">-->
+
+<!--      Sorry, your browser doesn't support embedded videos.-->
+<!--    </video>-->
+<!--  </section>-->
+
+  <section class="tech-subs">
+    <h2> Technical Test with WebVTT </h2>
+    <video
+      controls
+      crossorigin
+      playsinline
+      id="player"
+    >
+      <!-- Video files -->
+      <source
+        src="./videos/westworld-trailer.mp4"
+        type="video/mp4"
+        size="576"
+      />
+
+      <!-- Caption files -->
+      <track
+        kind="captions"
+        label="English"
+        srclang="en"
+        src="./subtitles/westworld.en.vtt"
+        default
+      />
+
+      <!-- Fallback for browsers that don't support the <video> element -->
+      <a href="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4" download>Download</a>
+    </video>
+
+    <canvas id="canvas"></canvas>
+  </section>
 
 
-<!--  </div>-->
-<!--  <canvas id="canvas"></canvas>-->
-<!--  <script src="https://cdn.plyr.io/3.2.4/plyr.js"></script>-->
-<!--  <script src="js/index.js" type="module"></script>-->
+  <script src="js/index.js" type="module"></script>
 </body>
 </html>

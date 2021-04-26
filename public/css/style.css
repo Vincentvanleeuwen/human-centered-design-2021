@@ -10,3 +10,14 @@ body {
   align-items: center;
   padding-top: 5em;
 }
+
+.tech-subs {
+  position: relative;
+}
+
+#canvas {
+  position: absolute;
+  bottom: 0;
+  right: -12em;
+  transform: scale(0.3);
+}
