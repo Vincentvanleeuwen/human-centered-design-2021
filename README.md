@@ -8,6 +8,24 @@ Darice de la Cuba asked us to create a personalized product. Darice has a proble
 
 There are many things that have to be tested. Does Darice like colors, can she bind them to an emotion, what devices does she use and more.
 
+## Exclusive Design Principles
+
+### Study situation
+
+When you're designing for someone you have to start by researching what problems the person experiences. In the case of Darice it's to find out what is actually missing when you're deaf. The best way of finding out is to try and feel how it would be for yourself. For Instance you could put on a headset, turn off the volume and watch a video. Is there anything you're missing?
+
+### Ignore conventions 
+
+When you are exclusively designing for one person you can ignore the conventions set for everyone. This is because when you stay away from conventions, you can make a far more personalised product. In the case of Darice this is very difficult. Darice herself is a front-end developer with a lot of love for accessibility. Therefore each decision I'd make she would think about in the sense of standard conventions.
+
+### Prioritise identy
+
+It's important to understand with who you're really dealing with. The more you know about said person, the better the product can become. It would be really weird to come up with a project that does not even come close to the interests of said person.
+
+### Add nonsense
+
+Last but not least, adding nonsense. Nonsense can make a product more fun. You still have to watch out that you're not putting out too much nonsense, since Darice has difficulty standing away from standard conventions. In the case I'm making for Darice the nonsense element started with an equalizer. Later on I found out that this actually isn't even a nonsense item, since Darice liked the equalizer *a lot* 
+
 ## Tests
 Check out the tests to get a better understanding of what happened inbetween these few weeks while testing.
 
