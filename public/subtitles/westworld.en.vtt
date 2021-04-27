@@ -4,6 +4,7 @@ STYLE
 ::cue {
   width: 100%;
   color: white;
+  border: transparent;
 }
 
 NOTE comment blocks can be used between style blocks. background-color: rgba(0, 50, 100, 0.33);
@@ -17,7 +18,6 @@ STYLE
 ::cue(i) {
   color: white;
   font-size: 80%;
-  padding-right: 2em;
 }
 
 STYLE
@@ -31,37 +31,130 @@ STYLE
 }
 
 STYLE
-::cue(c.boy) {
-  background-color: rgb(241, 195, 86, 0.33);
+::cue(c.robert) {
+  background-color: rgba(255,0,255,0.33);
 }
 
 STYLE
 ::cue(c.boy) {
+  background-color: rgba(241, 195, 86, 0.33);
+}
+
+STYLE
+::cue(c.bernard) {
   background-color: rgba(104, 36, 157, 0.33);
 }
 
-00:00:02.500 --> 00:00:04.000 align:middle
-<c.dolores><i>Dolores     </i> You came <b>back</b>.</c>
+STYLE
+::cue(c.mib) {
+  background-color: rgba(0, 255, 0, 0.33);
+}
 
-00:00:04.500 --> 00:00:07.000 align:middle
-<c.teddy><i>Teddy     </i> You know if I could stay right here with you I <b>would</b>.</c>
+NOTE Music subtitles------------------
 
-00:00:08.500 --> 00:00:11.000 align:middle
-<c.dolores><i>Dolores     </i> Just sometimes I feel like the world out there is calling me</c>
+00:00:00.000 --> 00:00:16.000 align:end size:20% line:16
+<i>Dark suspense music playing</i>
 
-00:00:12.000 --> 00:00:14.000 align:middle
-<c.boy><i>Boy     </i> You're one of them aren't you?</c>
+00:00:23.000 --> 00:00:30.000 align:end size:40%
+<i>Mysterious music playing</i>
 
-00:00:14.000 --> 00:00:17.000 align:middle
-<c.boy><i>Boy     </i> You're not real</c>
+00:00:53.000 --> 00:01:45.000 align:end size:40%
+<i>Dark suspense music playing</i>
+
+00:02:00.000 --> 00:02:09.000 align:end size:40%
+<i>Mysterious ending music</i>
+
+NOTE Noise Subtitles-------------------
 
 00:00:16.500 --> 00:00:17.500 align:middle
 [BANG]
 
-00:00:17.500 --> 00:00:20.000 align:middle
-<c.bernard><i>Bernard     </i> Bring yourself back online</c>
-
 00:00:20.000 --> 00:00:22.000 align:middle
 [Gasping for air]
 
-NOTE style blocks cannot appear after the first cue.
+00:00:36.000 --> 00:00:38.000 align:middle
+[Train whistling]
+
+00:01:05.000 --> 00:01:06.000 align:middle
+[GUNSHOT]
+
+NOTE Actual Subtitles----------------
+
+
+
+00:00:02.500 --> 00:00:04.000 align:middle size:80%
+<c.dolores><i>Dolores     </i> You came <b>back</b>.</c>
+
+00:00:04.500 --> 00:00:07.000 align:middle size:80%
+<c.teddy><i>Teddy     </i> You know if I could stay right here with you I <b>would</b>.</c>
+
+00:00:08.500 --> 00:00:11.000 align:middle size:80%
+<c.dolores><i>Dolores     </i> Just sometimes I feel like the world out there is calling me</c>
+
+00:00:12.000 --> 00:00:14.000 align:middle size:80%
+<c.boy><i>Boy     </i> You're one of them aren't you?</c>
+
+00:00:14.000 --> 00:00:17.000 align:middle size:80%
+<c.boy><i>Boy     </i> You're not real</c>
+
+00:00:17.500 --> 00:00:20.000 align:middle size:80%
+<c.bernard><i>Bernard     </i> Bring yourself back online</c>
+
+00:00:22.500 --> 00:00:23.500 align:middle size:80%
+<c.robert><i>Robert     </i> Do you know where you are?</c>
+
+00:00:24.000 --> 00:00:26.000 align:middle size:80%
+<c.dolores><i>Dolores     </i> I'm in a dream.</c>
+
+00:00:26.000 --> 00:00:27.000 align:middle size:80%
+<c.robert><i>Robert     </i> You're in my dream</c>
+
+00:00:27.500 --> 00:00:30.500 align:middle size:80%
+<c.robert><i>Robert     </i> I've designed every part of this place.</c>
+
+00:00:31.200 --> 00:00:33.500 align:middle size:80%
+<c.robert><i>Robert     </i> It's not a theme park</c>
+
+00:00:33.800 --> 00:00:35.500 align:middle size:80%
+<c.robert><i>Robert     </i> but an entire world</c>
+
+00:00:38.500 --> 00:00:43.000 align:middle size:80%
+<c.narrator><i>Narrator     </i> <b>You</b>, and everyone you know, were built to gratify the desires</c>
+
+00:00:43.000 --> 00:00:46.000 align:middle size:80%
+<c.narrator><i>Narrator     </i> of people who pay to visit your world</c>
+
+00:00:47.000 --> 00:00:51.000 align:middle size:80%
+<c.robert><i>Robert     </i> Just don't forget, they're not <i>real</i></c>
+
+00:00:53.500 --> 00:00:57.500 align:middle size:80%
+<c.robert><i>Robert     </i> What you and I do, is, so complicated</c>
+
+00:00:59.000 --> 00:01:02.000 align:middle size:80%
+<c.bernard><i>Bernard     </i> I need your help Dolores, I think I've made a mistake</c>
+
+00:01:02.500 --> 00:01:05.000 align:middle size:80%
+<c.robert><i>Robert     </i> So our creatures have been misbehaving</c>
+
+00:01:08.000 --> 00:01:12.000 align:middle size:80%
+<c.dolores><i>Dolores     </i> I think there may be something wrong with this world</c>
+
+00:01:16.700 --> 00:01:18.500 align:middle size:80%
+<c.mib><i>Man in Black     </i>  No choice you ever made was your own</c>
+
+00:01:22.000 --> 00:01:25.000 align:middle size:80%
+<c.mib><i>Man in Black     </i> You have always been a prisoner</c>
+
+00:01:27.000 --> 00:01:31.000 align:middle size:80%
+<c.mib><i>Man in Black     </i> What if I told you, I'm here to set you free</c>
+
+00:01:45.000 --> 00:01:48.500 align:middle
+<c.dolores><i>Dolores     </i> Are we.. very old friends? </c>
+
+00:01:49.000 --> 00:01:52.500 align:middle
+<c.robert><i>Robert     </i> <c.italic>No..</c> I wouldn't say friends Dolores</c>
+
+00:01:56.500 --> 00:02:00.000 align:middle
+<c.robert><i>Robert     </i> I wouldn't say that at all</c>
+
+

@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let ind = 0;
   const video = document.getElementById("player")
 
-  video.addEventListener('click', () => {
+  video.addEventListener('play', () => {
 
     if(ind !== 0) {
       console.log('hello')
@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
           // ctx.globalAlpha = 1;
 
-          ctx.fillStyle = 'rgb(255,255,255)'
+          ctx.fillStyle = 'rgba(255,255,255, 0.5)'
           ctx.fillRect(x, HEIGHT - barHeight, barWidth, barHeight)
 
           x += barWidth + 15
