@@ -50,12 +50,15 @@ In the first test we mainly tested what kind of emotion she felt with certain fo
 
 [Second Test (Dutch)](https://github.com/Vincentvanleeuwen/human-centered-design-2021/wiki/Test-Verslag-15-April)
 
+[Concept link](https://xd.adobe.com/view/82e69971-33ba-4ec0-8429-f18ccf961522-d7b5/)
+
 In the second test I could conclude that a circle as an equalizer was just not going to work out. It was hard for Darice to understand what the circle was for. Luckily the change of a font-style from regular to bold, or from regular to italic was doing a positive feedback on Darice. She understood it ment a word would be spoken more loudly than the other words.
 Darice liked seeing what kind of music was being played and enjoyed that each person had their own color and name. What she again didn't like was the visualisation of the equalizer. She said she would like it best if it was somewhere in the bottom right.
 I also tested how she'd react at emoticons. She liked the way I added the emoticons. Whenever someones face wasn't visible I added one emoticon, this gave her a better idea of what emotional load a sentence had.
 Lastly she instantly knew she did not want words jumping in one by one. So I know I can stay away from that.
 
 ![Test 2](https://github.com/Vincentvanleeuwen/human-centered-design-2021/blob/master/img/Web%201920%20%E2%80%93%204.jpg)
+
 
 [Last Test (Dutch)](https://github.com/Vincentvanleeuwen/human-centered-design-2021/wiki/Test-Verslag-21-April)
 
