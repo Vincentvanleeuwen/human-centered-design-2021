@@ -31,6 +31,13 @@ Last but not least, adding nonsense. Nonsense can make a product more fun. You s
 You are sitting at your desk at home. You just finished a movie and want to find a show to watch. 
 You open YouTube and search for a trailer of Westworld. Then you click on the video and turn on the english subtitles. The goal of this test is to see if the new subtitles give an enhanced experience of watching the video.
 
+### Questions
+- Does the equalizer show a good difference between loud and soft?
+- Has the color a good influence on knowing who is speaking at that moment?
+- Does showing subtitles by words instead of sentences help making it feel more human?
+- Can emoticons be used in subtitles to show emotions when a person's face is not visible while saying it?
+
+
 ## Tests
 
 Check out the tests to get a better understanding of what happened inbetween these few weeks while testing.
