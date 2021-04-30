@@ -72,6 +72,10 @@ In this test she also mentioned she'd probably rather not see emoticons in Close
 For the final concept I've made subtitles using WebVTT to create customized Closed Captions. With Javascript I added an equalizer to the video.
 
 [Live example](https://closedcaps.netlify.app/)
+
+## Conclusion
+
+WebVTT is an amazing type of file. I can imagine a platform where people can make subtitles, where you can add names, and other elements to subtitles. Lets make the web more accessible for deaf people by having an updated type of subtitle!
 <!-- replace the code in the /docs folder with your own, so you can showcase your work with GitHub Pages 🌍 -->
 
 <!-- Add a nice poster image here at the end of the week, showing off your shiny frontend 📸 -->
